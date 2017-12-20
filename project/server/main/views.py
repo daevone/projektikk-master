@@ -43,8 +43,8 @@ for result in api.metadata.metadata_types.get()['results']:
 def home():
     form = SomeForm()
     #print(form.data)
-    if form.is_submitted():
-        print(form.data.values())
+    if form.validate_on_submit():
+        print(form.data["label"])
     return render_template('main/home.html', form=form)
 
 
