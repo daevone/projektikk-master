@@ -1,0 +1,19 @@
+{% from "macros/fields.tmpl" import render_input_field, render_submit %}
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="body-content">
+  <div class="row">
+    <h1>Welcome!</h1>
+  </div>
+</div>
+
+    <form action="">
+        {{ form.hidden_tag() }}
+        {{ form.label }}
+        {{ render_submit() }}
+
+    </form>
+
+{% endblock %}
