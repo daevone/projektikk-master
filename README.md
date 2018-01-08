@@ -2,8 +2,8 @@
 
 Závěrečná studijní práce
 dokumentace
-Mayan EDMS
-David Balner
+Mayan EDMS
+
 
 
 
