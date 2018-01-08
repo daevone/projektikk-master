@@ -9,10 +9,6 @@ Mayan EDMS
 
 Obor: 
 
-Obor: 
-
-Třída:
-Školní rok:
 Třída:
 Školní rok:
 Poděkování
